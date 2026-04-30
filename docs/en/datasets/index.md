@@ -89,6 +89,7 @@ Oriented Bounding Boxes (OBB) is a method in computer vision for detecting angle
 
 - [DOTA-v2](obb/dota-v2.md): A popular OBB aerial imagery dataset with 1.7 million instances and 11,268 images.
 - [DOTA8](obb/dota8.md): A smaller subset of the first 8 images from the DOTAv1 split set, 4 for training and 4 for validation, suitable for quick tests.
+- [DOTA128](obb/dota128.md): A 128-image subset of the DOTA dataset with 128 images for training and validation, providing a good balance between size and diversity for testing OBB models.
 
 ## [Multi-Object Tracking](track/index.md)
 
@@ -197,7 +198,7 @@ Visit [Contribute New Datasets](#contribute-new-datasets) for a comprehensive gu
 - **Visualization Tools**: Explore and visualize your dataset images and annotations.
 - **Dataset Analysis**: Get insights into your dataset distribution and characteristics.
 
-The platform streamlines the transition from dataset management to model training, making the entire process more efficient. Learn more about [Ultralytics Platform Datasets](https://docs.ultralytics.com/platform/datasets/).
+The platform streamlines the transition from dataset management to model training, making the entire process more efficient. Learn more about [Ultralytics Platform Datasets](https://docs.ultralytics.com/platform/data/).
 
 ### What are the unique features of Ultralytics YOLO models for computer vision?
 

@@ -90,7 +90,7 @@ Ultralytics YOLO supports various datasets for instance segmentation tasks. Here
 
 ### Adding your own dataset
 
-If you have your own dataset and would like to use it for training segmentation models with Ultralytics YOLO format, ensure that it follows the format specified above under "Ultralytics YOLO format". Convert your annotations to the required format and specify the paths, number of classes, and class names in the YAML configuration file.
+If you have your own dataset and would like to use it for training segmentation models with Ultralytics YOLO format, ensure that it follows the format specified above under "Ultralytics YOLO format". Convert your annotations to the required format and specify the paths, number of classes, and class names in the YAML configuration file. Keep `images/` and `labels/` as separate folders at the same level, with matching subfolder structure; placing label `.txt` files in the image folder can cause the model to miss labels.
 
 ## Port or Convert Label Formats
 
@@ -114,7 +114,7 @@ Remember to double-check if the dataset you want to use is compatible with your 
 
 ## Auto-Annotation
 
-Auto-annotation is an essential feature that allows you to generate a segmentation dataset using a pretrained detection model. It enables you to quickly and accurately annotate a large number of images without the need for manual labeling, saving time and effort.
+[Auto-annotation](https://www.ultralytics.com/annotate) is an essential feature that allows you to generate a segmentation dataset using a pretrained detection model. It enables you to quickly and accurately annotate a large number of images without the need for manual labeling, saving time and effort.
 
 ### Generate Segmentation Dataset Using a Detection Model
 
